@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color"
+    tools:context="com.example.angelinealex.geolocationproject.ChatActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messages_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/send_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"></android.support.v7.widget.RecyclerView>
+    <EditText
+        android:id="@+id/meaasge_editText"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_your_message"
+        android:inputType="textPersonName"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="sendButton"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/send"
+        android:textColor="@color/cardview_light_background" />
+</android.widget.RelativeLayout>

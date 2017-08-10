@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GeoLocationProject</string>
+    <string name="welcome">Welcome...!!</string>
+    <string name="register">Register</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="loginText">Login to your Account :)</string>
+    <string name="loginemail">email</string>
+    <string name="loginpassword">password</string>
+    <string name="MainLoginButton">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="or">OR</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="textview">TextView</string>
+    <string name="enter_your_message">Enter your message...</string>
+    <string name="send">Send</string>
+    <string name="phone_hint">(___-___-____)</string>
+    <string name="pass_hint">*********</string>
+    <string name="activities">Activities</string>
+    <string name="already_has_account">Already has account! Login here</string>
+    <string name="chess_batminton">Chess,Batminton....</string>
+    <string name="computer_science">Computer Science</string>
+    <string name="department">Department</string>
+    <string name="email_name">Email</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="full_name">Full Name</string>
+    <string name="password_name">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register_new_account">Register New Account</string>
+    <string name="example_mail_com">example@mail.com</string>
+    <string name="textviemsg">TextView</string>
+</resources>
